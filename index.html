@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="style.css">
+    <script src="Javascript.js"></script>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="box">
+        <form>
+            <div class="input-container">
+                <input type="text" id="k" name="k" placeholder="Kills">
+                <label>Kills</label>
+            </div>
+            <div class="input-container">
+                <input type="text" id="d" name="d" placeholder="Deaths">
+                <label>Deaths</label>
+            </div>
+            <div class="input-container">
+                <input type="text" id="a" name="a" placeholder="Assists">
+                <label>Assists</label>
+            </div>
+            <button type="button" class="button" onclick="Converttaa()">Convert</button>
+        </form>
+        <span class="KDA" id="KDA" name="KDA"></span>
+    </div>
 </body>
 </html>
